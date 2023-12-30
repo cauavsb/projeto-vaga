@@ -1,0 +1,29 @@
+.biologia {
+    background-color: #CC4090;
+}
+
+.artes {
+    background-color: #05A2C2;
+}
+
+.geografia {
+    background-color: #C26719;
+}
+
+.sociologia {
+    background-color: #9B19C2;
+}
+
+h1, p {
+    color: white;
+}
+
+/* entre 0 e <6 = ff5964 */
+/* entre 6 e <8 = fdfd98 */
+/* entre 8 e 10 = 05ff00 */
+/* cor da lixeira = fe5964 */
+/* cor do lançar nota = e9ff1a*/
+
+.diferente {
+    
+}

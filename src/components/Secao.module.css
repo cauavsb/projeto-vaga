@@ -1,0 +1,23 @@
+.secoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 10px 0;
+}
+
+.lancar_notas {
+    display: flex;
+    background-color: #e9ff1a;
+    padding: 5px 15px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.lancar_notas h1 {
+    color: black;
+    padding: 3px 8px 0px 0px;
+}
+
+.mais {
+    font-size: 1.5em;
+}
