@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biologia, .artes, .sociologia, .geografia {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 110px;
+}
+
+.biologia {
+    background-color: #CC4090;
+}
+
+.artes {
+    background-color: #05A2C2;
+}
+
+.geografia {
+    background-color: #C26719;
+}
+
+.sociologia {
+    background-color: #9B19C2;
+}
