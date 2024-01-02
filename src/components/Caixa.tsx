@@ -1,11 +1,27 @@
+import { FaTrashAlt } from 'react-icons/fa';
 import styles from './Caixa.module.css';
 
-function Caixa() {
+type CaixaProps = {
+    disciplina: string;
+    data: string;
+    nota: number;
+};
+
+function Caixa({disciplina, data, nota}: CaixaProps) {
     return (
-        <div className={styles.container}>
-            <h1>História</h1>
-            <p>29/10/2023</p>
-            <p className={styles.diferente}>Nota: 9.5</p>
+        <div className={styles.principal}>
+            <div className={styles.container}>
+                <div className={styles.cima}>
+                    <h1>{disciplina}</h1>
+                    <p>{data}</p>
+                </div>
+                <div className={styles.baixo}>
+                    <p className={styles.diferente}>Nota: {nota}</p>
+                </div>
+            </div>
+            <div>
+                <FaTrashAlt className={styles.lixeira} />
+            </div>
         </div>
     )
 }

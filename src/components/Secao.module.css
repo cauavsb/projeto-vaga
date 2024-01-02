@@ -1,3 +1,7 @@
+.principl {
+    display: flex;
+    flex-direction: column;
+}
 .secoes {
     display: flex;
     justify-content: space-around;
@@ -16,6 +20,7 @@
 .lancar_notas h1 {
     color: black;
     padding: 3px 8px 0px 0px;
+    font-size: 1em;
 }
 
 .mais {
